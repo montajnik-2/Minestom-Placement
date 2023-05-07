@@ -5,10 +5,10 @@ plugins {
 }
 
 var minestomVersion = "85febebd09"
-var statesVersion = "cb880bf316"
-var utilityVersion = "36f180ec1a"
+var statesVersion = "5a94fee58b"
+var utilityVersion = "eb45904335"
 
-group = "org.montajnik-2.placement"
+group = "fr.bretzel.minestom.placement"
 version = "1.1.1"
 
 repositories {

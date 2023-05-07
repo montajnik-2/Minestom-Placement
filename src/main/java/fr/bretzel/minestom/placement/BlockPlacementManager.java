@@ -63,21 +63,6 @@ public class BlockPlacementManager {
         if (block == Block.TURTLE_EGG)
             placementRules.addBlockPlacement(TurtleEggPlacement::new);
 
-        if (block == Block.PLAYER_HEAD)
-            placementRules.addBlockPlacement(new HeadPlacement(block, Block.PLAYER_WALL_HEAD));
-
-        if (block == Block.ZOMBIE_HEAD)
-            placementRules.addBlockPlacement(new HeadPlacement(block, Block.ZOMBIE_WALL_HEAD));
-
-        if (block == Block.CREEPER_HEAD)
-            placementRules.addBlockPlacement(new HeadPlacement(block, Block.CREEPER_WALL_HEAD));
-
-        if (block == Block.DRAGON_HEAD)
-            placementRules.addBlockPlacement(new HeadPlacement(block, Block.DRAGON_WALL_HEAD));
-
-        if (block == Block.SKELETON_SKULL)
-            placementRules.addBlockPlacement(new HeadPlacement(block, Block.SKELETON_WALL_SKULL));
-
         if (block == Block.LANTERN || block == Block.SOUL_LANTERN)
             placementRules.addBlockPlacement(new LanternPlacement(block));
 

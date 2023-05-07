@@ -29,3 +29,13 @@ dependencies {
         exclude group: 'com.github.Minestom', module: 'Minestom'
     }
 }
+
+shadowJar {
+    archiveFileName = "${rootProject.name}-${version}-extension.jar"
+
+    dependencies {
+        exclude(dependency('com.github.Minestom:Minestom:.*'))
+    }
+
+    minimize()
+}

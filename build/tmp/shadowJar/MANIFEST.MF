@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Class-Path: Minestom-85febebd09.jar testing-85febebd09.jar Minestom-85fe
+ bebd09.jar tinylog-impl-2.5.0.jar slf4j-tinylog-2.5.0.jar tinylog-api-2
+ .5.0.jar jline-3.21.0.jar jline-terminal-jansi-3.21.0.jar caffeine-3.1.
+ 2.jar flare-2.0.1.jar flare-fastutil-2.0.1.jar jctools-core-4.0.1.jar M
+ inestomDataGenerator-1c1921cd41.jar gson-2.5.3.jar common-2.5.3.jar fas
+ tutil-8.5.9.jar adventure-text-serializer-legacy-4.12.0.jar adventure-t
+ ext-serializer-plain-4.12.0.jar adventure-text-logger-slf4j-4.12.0.jar 
+ adventure-api-4.12.0.jar adventure-key-4.12.0.jar adventure-text-serial
+ izer-gson-4.12.0.jar gson-2.9.1.jar hydrazine-path-finding-1.7.2.jar ko
+ tlin-stdlib-jdk8-1.7.22.jar kotlin-reflect-1.7.22.jar DependencyGetter-
+ v1.0.1.jar junit-jupiter-engine-5.9.1.jar junit-jupiter-params-5.9.1.ja
+ r junit-platform-suite-engine-1.9.1.jar junit-platform-suite-commons-1.
+ 9.1.jar junit-platform-launcher-1.9.1.jar junit-platform-engine-1.9.1.j
+ ar junit-platform-suite-api-1.9.1.jar junit-platform-commons-1.9.1.jar 
+ junit-jupiter-api-5.9.1.jar animal-sniffer-annotations-1.18.jar data-st
+ ructures-2.18.jar shrinkwrap-resolver-impl-maven-archive-3.1.4.jar shri
+ nkwrap-resolver-impl-maven-embedded-3.1.4.jar shrinkwrap-resolver-impl-
+ maven-3.1.4.jar maven-resolver-provider-3.6.3.jar maven-resolver-impl-1
+ .4.1.jar maven-resolver-connector-basic-1.4.1.jar maven-resolver-transp
+ ort-wagon-1.4.1.jar wagon-http-lightweight-2.12.jar wagon-http-shared-2
+ .12.jar slf4j-api-2.0.0-alpha5.jar jansi-2.4.0.jar jline-terminal-3.21.
+ 0.jar checker-qual-3.27.0.jar error_prone_annotations-2.16.jar jsoup-1.
+ 15.3.jar examination-string-1.3.0.jar examination-api-1.3.0.jar kotlin-
+ stdlib-jdk7-1.7.22.jar antlr-2.5.3.jar kotlin-stdlib-1.7.22.jar opentes
+ t4j-1.2.0.jar kotlin-stdlib-common-1.7.22.jar commons-net-3.6.jar annot
+ ations-13.0.jar shrinkwrap-resolver-spi-maven-3.1.4.jar shrinkwrap-reso
+ lver-api-maven-archive-3.1.4.jar shrinkwrap-resolver-api-maven-embedded
+ -3.1.4.jar shrinkwrap-resolver-spi-maven-archive-3.1.4.jar shrinkwrap-r
+ esolver-spi-3.1.4.jar shrinkwrap-resolver-api-maven-3.1.4.jar shrinkwra
+ p-resolver-api-3.1.4.jar antlr4-runtime-4.10.1.jar maven-model-builder-
+ 3.6.3.jar maven-model-3.6.3.jar shrinkwrap-impl-base-1.2.6.jar shrinkwr
+ ap-spi-1.2.6.jar shrinkwrap-api-1.2.6.jar maven-repository-metadata-3.6
+ .3.jar maven-settings-builder-3.6.3.jar maven-settings-3.6.3.jar maven-
+ resolver-spi-1.4.1.jar maven-resolver-util-1.4.1.jar maven-resolver-api
+ -1.4.1.jar plexus-interpolation-1.25.jar plexus-sec-dispatcher-1.4.jar 
+ wagon-file-3.3.4.jar wagon-provider-api-3.3.4.jar maven-invoker-3.0.0.j
+ ar maven-artifact-3.6.3.jar plexus-utils-3.2.1.jar org.eclipse.sisu.ple
+ xus-0.3.4.jar plexus-compiler-javac-2.7.jar arquillian-spacelift-1.0.2.
+ jar commons-codec-1.10.jar javax.inject-1.jar maven-builder-support-3.6
+ .3.jar org.eclipse.sisu.inject-0.3.4.jar plexus-cipher-1.4.jar commons-
+ io-2.5.jar plexus-compiler-api-2.7.jar plexus-component-annotations-1.7
+ .jar arquillian-spacelift-api-1.0.2.jar commons-compress-1.8.1.jar comm
+ ons-lang3-3.8.1.jar
+

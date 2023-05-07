@@ -19,10 +19,6 @@ repositories {
     }
 }
 
-java {
-    withSourcesJar()
-}
-
 dependencies {
     shadow("com.github.Minestom:Minestom:$minestomVersion")
 
@@ -31,23 +27,5 @@ dependencies {
     }
     implementation("com.github.montajnik-2:Minestom-Utilities:$utilityVersion") {
         exclude group: 'com.github.Minestom', module: 'Minestom'
-    }
-}
-
-shadowJar {
-    archiveFileName = "${rootProject.name}-${version}-extension.jar"
-
-    dependencies {
-        exclude(dependency('com.github.Minestom:Minestom:.*'))
-    }
-
-    minimize()
-}
-
-publishing {
-    publications {
-        maven(MavenPublication) {
-            from components.java
-        }
     }
 }

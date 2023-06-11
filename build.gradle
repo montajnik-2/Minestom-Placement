@@ -4,9 +4,9 @@ plugins {
     id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 
-var minestomVersion = "85febebd09"
-var statesVersion = "5a94fee58b"
-var utilityVersion = "eb45904335"
+var minestomVersion = "-SNAPSHOT"
+var statesVersion = "-SNAPSHOT"
+var utilityVersion = "-SNAPSHOT"
 
 group = "fr.bretzel.minestom.placement"
 version = "1.1.1"
@@ -20,12 +20,12 @@ repositories {
 }
 
 dependencies {
-    shadow("com.github.Minestom:Minestom:$minestomVersion")
+    shadow("com.github.Minestom:Minestom:-SNAPSHOT")
 
-    implementation("com.github.montajnik-2:Minestom-States:$statesVersion") {
+    implementation("com.github.montajnik-2:Minestom-States:-SNAPSHOT") {
         exclude group: 'com.github.Minestom', module: 'Minestom'
     }
-    implementation("com.github.montajnik-2:Minestom-Utilities:$utilityVersion") {
+    implementation("com.github.montajnik-2:Minestom-Utilities:-SNAPSHOT") {
         exclude group: 'com.github.Minestom', module: 'Minestom'
     }
 }

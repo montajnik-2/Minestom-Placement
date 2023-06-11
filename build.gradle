@@ -25,7 +25,7 @@ dependencies {
     implementation("com.github.montajnik-2:Minestom-States:-SNAPSHOT") {
         exclude group: 'com.github.Minestom', module: 'Minestom'
     }
-    implementation("com.github.montajnik-2:Minestom-Utilities:-SNAPSHOT") {
+    implementation("com.github.montajnik-2:Minestom-Utilities:cc8b5c169d") {
         exclude group: 'com.github.Minestom', module: 'Minestom'
     }
 }
